@@ -1,9 +1,10 @@
 .header-wrapper {
-    background-color: black;
+    background-color: var(--black);
     color: white;
 }
 
 .h-container {
+    color: var(--secondary);
     display: flex;
     row-gap: 2rem;
     align-items: center;

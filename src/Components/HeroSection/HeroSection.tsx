@@ -1,7 +1,9 @@
 
+import { HiLocationMarker } from 'react-icons/hi';
 import HeroSectionPicture from '../../assets/images/hero-section-picture.jpg'
 import '../../index.css'
 import './Style/HeroSection.css'
+import CountUp from 'react-countup';
 
 const HeroSection = () => {
   return(
@@ -23,9 +25,40 @@ const HeroSection = () => {
               <span>Forget all difficulties in finding a residence for you</span>
             </div>
 
-            <div className="search-bar">
-              searchBar
+            <div className="flexCenter search-bar">
+              <HiLocationMarker color="var(--blue)" size={25}/>
+              <input type="text" />
+              <button className='button'>Search</button>
             </div>
+          
+            <div className="flexCenter stats">
+
+              <div className="flexColStart stat">
+                <span>
+                  <CountUp start={1000} end={5000} duration={4}/>
+                <span>+</span>
+                </span>
+              <span>Premium Products</span>
+              </div>
+
+              <div className="flexColStart stat">
+                <span>
+                  <CountUp start={1000} end={5000} duration={4}/>
+                <span>+</span>
+                </span>
+              <span>Premium Products</span>
+              </div>
+
+              <div className="flexColStart stat">
+                <span>
+                  <CountUp start={1000} end={5000} duration={4}/>
+                <span>+</span>
+                </span>
+              <span>Premium Products</span>
+              </div>
+
+            </div>
+
           </div>
 
           <div className='flexCenter hero-right'>
