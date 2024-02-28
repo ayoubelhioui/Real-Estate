@@ -1,9 +1,9 @@
 
-import { Swiper, SwiperSlide, useSwiper } from 'swiper/react'
+import { Swiper, SwiperClass, SwiperSlide, useSwiper } from 'swiper/react'
 import 'swiper/css'
 import './Style/Residencies.css'
 import carouselData from '../../utils/slider-data.json'
-import sliderConfig from '../../utils/slider-config.js'
+import sliderConfig from "../../utils/slider-config"
 
 const Residencies = () => {
     return (
@@ -14,9 +14,10 @@ const Residencies = () => {
                 <span className='primaryText'>Popular Residencies</span>
                </div>
 
-               <Swiper>
+                <SliderButtons/>
+               <Swiper {...sliderConfig}>
                 {
-                    carouselData.map((data, index) => (
+                    carouselData.map((data, index: number) => (
                         <SwiperSlide key={index}>
                             <div className="flexColStart residencies-card">
                                 <img src={data.image} alt="there's no alternative" />
@@ -36,5 +37,21 @@ const Residencies = () => {
     );
 };
 
+
+
 export default Residencies
 
+const SliderButtons = () => {
+
+    const swiper: SwiperClass | null = useSwiper();
+
+    if (!swiper)
+        return <h1>helloWorld</h1>
+
+    return (
+        <div className="residencies-button">
+            <button onClick={()=> swiper.slidePrev()}>&lt;</button>
+            <button onClick={()=> swiper.slideNext()}>&gt;</button>
+        </div>
+    )
+}

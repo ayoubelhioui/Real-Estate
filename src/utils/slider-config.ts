@@ -1,4 +1,4 @@
-export const sliderConfig = {
+ const sliderConfig = {
     slidesPerView: 1,
     spaceBetween: 50,
     breakpoints: {
@@ -19,3 +19,5 @@ export const sliderConfig = {
         },
     }
 }
+
+export default sliderConfig;
