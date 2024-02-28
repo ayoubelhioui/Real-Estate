@@ -5,8 +5,11 @@ import HeroSection from "./Components/HeroSection/HeroSection.tsx";
 function App() {
   return (
     <div className="app">
+      <div>
+        <div className="white-gradient"/>
         <Header />
         <HeroSection/>
+      </div>
     </div>
   );
 }

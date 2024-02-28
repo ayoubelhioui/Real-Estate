@@ -21,8 +21,8 @@ const HeroSection = () => {
             </div>
 
             <div className='flexColStart hero-description'>
-              <span>Find a variety of properties that suit you very easily</span>
-              <span>Forget all difficulties in finding a residence for you</span>
+              <span className='secondaryText'>Find a variety of properties that suit you very easily</span>
+              <span className='secondaryText'>Forget all difficulties in finding a residence for you</span>
             </div>
 
             <div className="flexCenter search-bar">
@@ -33,28 +33,28 @@ const HeroSection = () => {
           
             <div className="flexCenter stats">
 
-              <div className="flexColStart stat">
+              <div className="flexColCenter stat">
                 <span>
                   <CountUp start={1000} end={5000} duration={4}/>
                 <span>+</span>
                 </span>
-              <span>Premium Products</span>
+              <span className='secondaryText'>Premium Products</span>
               </div>
 
-              <div className="flexColStart stat">
+              <div className="flexColCenter stat">
                 <span>
-                  <CountUp start={1000} end={5000} duration={4}/>
+                  <CountUp start={100} end={500} duration={4}/>
                 <span>+</span>
                 </span>
-              <span>Premium Products</span>
+                <span className='secondaryText'>Happy Costumers</span>
               </div>
 
-              <div className="flexColStart stat">
+              <div className="flexColCenter stat">
                 <span>
-                  <CountUp start={1000} end={5000} duration={4}/>
+                  <CountUp end={20}/>
                 <span>+</span>
                 </span>
-              <span>Premium Products</span>
+                <span className='secondaryText'>Award Winnings</span>
               </div>
 
             </div>
