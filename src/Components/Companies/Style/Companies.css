@@ -1,0 +1,6 @@
+.companies-container {
+    gap: 12rem;
+}
+.companies-container>img {
+    width: 9rem;
+}

@@ -1,0 +1,63 @@
+[
+    {
+      "name": "Luxury Villa with Ocean View",
+      "price": "$1,500,000",
+      "details": "Stunning villa located on a cliff with panoramic ocean views. Features 5 bedrooms, 4 bathrooms, spacious living areas, infinity pool, and private beach access.",
+      "image": "https://example.com/villa1.jpg"
+    },
+    {
+      "name": "Downtown Penthouse",
+      "price": "$800,000",
+      "details": "Modern penthouse located in the heart of the city. Features floor-to-ceiling windows, open concept living space, gourmet kitchen, and rooftop terrace with city skyline views.",
+      "image": "https://example.com/penthouse1.jpg"
+    },
+    {
+      "name": "Mountain Retreat Cabin",
+      "price": "$350,000",
+      "details": "Cozy cabin nestled in the mountains. Features 3 bedrooms, 2 bathrooms, stone fireplace, wrap-around porch, and breathtaking views of the surrounding forest.",
+      "image": "https://example.com/cabin1.jpg"
+    },
+    {
+      "name": "Beachfront Condo",
+      "price": "$600,000",
+      "details": "Charming beachfront condo with direct access to the sand. Features 2 bedrooms, 2 bathrooms, updated kitchen, spacious balcony, and resort-style amenities.",
+      "image": "https://example.com/condo1.jpg"
+    },
+    {
+      "name": "Country Estate",
+      "price": "$2,200,000",
+      "details": "Elegant country estate set on sprawling acres of land. Features a grand mansion with 7 bedrooms, 6 bathrooms, formal gardens, swimming pool, and guest house.",
+      "image": "https://example.com/estate1.jpg"
+    },
+    {
+      "name": "City Townhouse",
+      "price": "$400,000",
+      "details": "Chic townhouse located in a trendy urban neighborhood. Features 3 bedrooms, 2.5 bathrooms, modern finishes, private courtyard, and attached garage.",
+      "image": "https://example.com/townhouse1.jpg"
+    },
+    {
+      "name": "Lakefront Retreat",
+      "price": "$750,000",
+      "details": "Tranquil lakefront property perfect for relaxation and outdoor activities. Features a cozy cottage with 2 bedrooms, 1 bathroom, large deck, and private dock.",
+      "image": "https://example.com/retreat1.jpg"
+    },
+    {
+      "name": "Ski Chalet",
+      "price": "$900,000",
+      "details": "Quaint ski chalet located in a prime mountain resort area. Features 4 bedrooms, 3 bathrooms, stone fireplace, hot tub, and stunning views of the slopes.",
+      "image": "https://example.com/chalet1.jpg"
+    },
+    {
+      "name": "Riverside Bungalow",
+      "price": "$250,000",
+      "details": "Charming riverside bungalow with a serene natural setting. Features 2 bedrooms, 1 bathroom, wrap-around porch, and private river access for fishing and kayaking.",
+      "image": "https://example.com/bungalow1.jpg"
+    },
+    {
+      "name": "Golf Course Estate",
+      "price": "$1,800,000",
+      "details": "Luxurious estate located on a prestigious golf course. Features a custom-built mansion with 6 bedrooms, 5 bathrooms, home theater, wine cellar, and golf course views.",
+      "image": "https://example.com/estate2.jpg"
+    }
+  ]
+  

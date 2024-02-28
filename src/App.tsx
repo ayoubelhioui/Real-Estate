@@ -1,4 +1,5 @@
 import "./App.css";
+import Companies from "./Components/Companies/Companies.tsx";
 import Header from "./Components/Header/Header.tsx";
 import HeroSection from "./Components/HeroSection/HeroSection.tsx";
 
@@ -10,6 +11,7 @@ function App() {
         <Header />
         <HeroSection/>
       </div>
+        <Companies/>
     </div>
   );
 }
