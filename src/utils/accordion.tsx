@@ -8,7 +8,7 @@ type AccordionItem = {
     detail: string;
 };
 
-const accodianData = [
+const accordionItems = [
     {
         icon: <HiShieldCheck/>,
         heading: 'Best interest rates on the market',
@@ -26,4 +26,4 @@ const accodianData = [
     }, 
 ]
 
-export default accodianData;
+export default accordionItems;
