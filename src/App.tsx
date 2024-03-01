@@ -1,5 +1,6 @@
 import "./App.css";
 import Companies from "./Components/Companies/Companies.tsx";
+import ContactUs from "./Components/Contact-Us/Contact-us.tsx";
 import Header from "./Components/Header/Header.tsx";
 import HeroSection from "./Components/HeroSection/HeroSection.tsx";
 import Residencies from "./Components/Residencies/Residencies.tsx";
@@ -16,6 +17,7 @@ function App() {
         <Companies/>
         <Residencies/>
         <Value/>
+        <ContactUs/>
     </div>
   );
 }

@@ -12,6 +12,7 @@ import { MdOutlineArrowDropDown } from 'react-icons/md';
 import './Style/Value.css'
 import ValueSectionPicture from '../../assets/images/value-section-picture.jpg'
 import accordionItems from '../../utils/accordion';
+import { useState } from 'react';
 
 const Value = () => {
     return (
@@ -27,7 +28,7 @@ const Value = () => {
                 <div className="flexColStart value-right">
                     <span className='orangeText'>Our Value</span>
                     <span className='primaryText'>Value We Give To You</span>
-                    <span className='secondaryText'>We always ready to help by providijng the best services for you.
+                    <span className='secondaryText'>We always ready to help by providing the best services for you.
                     <br/>
                     We beleive a good blace to live can make your life better</span>
                 <Accordion 
@@ -36,10 +37,17 @@ const Value = () => {
                     preExpanded={[0]}>
                         {
                             accordionItems.map((accordionItem, index)=> {
+                                // const [className, setClassName] = useState(null);
                                 return (
-                                    <AccordionItem className='accordion-item' key={index} uuid={index}>
+                                    <AccordionItem className={`accordion-item`} key={index} uuid={index}>
                                         <AccordionItemHeading>
                                             <AccordionItemButton className= 'flexCenter accordion-button'>
+                                                {/* <AccordionItemState>
+                                                {({expanded}) => expanded 
+                                                ? setClassName("expanded")
+                                                : setClassName("collapsed")
+                                                }
+                                                </AccordionItemState> */}
                                                 <div className="flexCenter icon">{accordionItem.icon}</div>
                                                 <span className="primaryText">{accordionItem.heading}</span>
                                                 <div className="flexCenter icon">
