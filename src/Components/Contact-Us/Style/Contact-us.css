@@ -11,7 +11,7 @@
     gap: 1rem;
 }
 
-.contact-us-modes row{
+.contact-us-modes .row{
     gap: 1.5rem;
 }
 
@@ -37,12 +37,12 @@
     gap: 1.6rem;
 }
 
-.mode .detail .primatyText {
+.mode .detail .primaryText {
     font-size: 1.1rem;
     font-weight: 600;
 }
 
-.mode :hover {
+.mode:hover {
     scale: 1.1;
     box-shadow: var(--shadow);
 }

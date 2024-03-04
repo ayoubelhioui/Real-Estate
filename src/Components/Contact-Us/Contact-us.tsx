@@ -19,9 +19,9 @@ const ContactUs = () => {
                     </span>
 
                     <div className="flexColStart contact-us-modes">
-                        <div className="flexColStart row">
+                        <div className="flexStart row">
                             <div className="flexColCenter mode">
-                                <div className="flexColStart">
+                                <div className="flexStart">
                                     <div className="flexCenter icon">
                                         <MdCall size={25}/>
                                     </div>
@@ -34,6 +34,58 @@ const ContactUs = () => {
                                     Call Now
                                 </div> 
                             </div>
+
+
+                            <div className="flexColCenter mode">
+                                <div className="flexStart">
+                                    <div className="flexCenter icon">
+                                        <MdCall size={25}/>
+                                    </div>
+                                    <div className="flexColStart detail">
+                                        <span className='primaryText'>Message</span>
+                                        <span className='secondaryText'>034 131 342 442</span>
+                                    </div>
+                                </div>
+                                <div className="flexCenter button">
+                                    Message Now
+                                </div> 
+                            </div>
+
+                        </div>
+
+                        
+                        <div className="flexStart row">
+                            <div className="flexColCenter mode">
+                                <div className="flexStart">
+                                    <div className="flexCenter icon">
+                                        <BsFillChatDotsFill size={25}/>
+                                    </div>
+                                    <div className="flexColStart detail">
+                                        <span className='primaryText'>Video Call</span>
+                                        <span className='secondaryText'>034 131 342 442</span>
+                                    </div>
+                                </div>
+                                <div className="flexCenter button">
+                                    Video Call Now
+                                </div> 
+                            </div>
+
+
+                            <div className="flexColCenter mode">
+                                <div className="flexStart">
+                                    <div className="flexCenter icon">
+                                        <MdCall size={25}/>
+                                    </div>
+                                    <div className="flexColStart detail">
+                                        <span className='primaryText'>Call</span>
+                                        <span className='secondaryText'>034 131 342 442</span>
+                                    </div>
+                                </div>
+                                <div className="flexCenter button">
+                                    Call Now
+                                </div> 
+                            </div>
+
                         </div>
                     </div>
                 </div>
