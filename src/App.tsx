@@ -1,6 +1,7 @@
 import "./App.css";
 import Companies from "./Components/Companies/Companies.tsx";
 import ContactUs from "./Components/Contact-Us/Contact-us.tsx";
+import Footer from "./Components/Footer/Footer.tsx";
 import GetStarted from "./Components/GetStarted/GetStarted.tsx";
 import Header from "./Components/Header/Header.tsx";
 import HeroSection from "./Components/HeroSection/HeroSection.tsx";
@@ -13,13 +14,14 @@ function App() {
       <div>
         <div className="white-gradient"/>
         <Header />
-        <HeroSection/>
+        {/* <HeroSection/> */}
       </div>
-        <Companies/>
+        {/* <Companies/>
         <Residencies/>
         <Value/>
         <ContactUs/>
         <GetStarted/>
+        <Footer/> */}
     </div>
   );
 }
