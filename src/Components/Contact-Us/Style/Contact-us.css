@@ -52,3 +52,26 @@
     color: white;
     scale: 0.8;
 }
+
+@media (max-width: 1024px) {
+   .contact-us-container {
+    flex-direction: column;
+   } 
+   
+   .contact-us-right {
+    justify-content: center;
+   }
+
+    .contact-us-modes {
+        width: 100%;
+    }
+
+    .row {
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mode {
+        width: 100%;
+    }
+}

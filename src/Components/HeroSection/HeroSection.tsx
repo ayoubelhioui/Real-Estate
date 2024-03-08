@@ -4,7 +4,7 @@ import HeroSectionPicture from '../../assets/images/hero-section-picture.jpg'
 import '../../index.css'
 import './Style/HeroSection.css'
 import CountUp from 'react-countup';
-
+// import {motion} from 'framer-'
 const HeroSection = () => {
   return(
       <section className='hero-wrapper'>
