@@ -15,7 +15,6 @@ const Residencies = () => {
                </div>
 
                <Swiper {...sliderConfig}>
-                {/* <SliderButtons/> */}
                 {
                     carouselData.map((data, index: number) => (
                         <SwiperSlide key={index}>
@@ -37,21 +36,4 @@ const Residencies = () => {
     );
 };
 
-
-
 export default Residencies
-
-const SliderButtons = () => {
-
-    const swiper: SwiperClass | null = useSwiper();
-
-    if (!swiper)
-        return <h1>helloWorldgg</h1>
-
-    return (
-        <div className="residencies-button">
-            <button onClick={()=> swiper.slidePrev()}>&lt;</button>
-            <button onClick={()=> swiper.slideNext()}>&gt;</button>
-        </div>
-    )
-}

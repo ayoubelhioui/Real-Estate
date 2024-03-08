@@ -67,3 +67,9 @@
     cursor: pointer;
     margin-bottom: 20px;
 }
+
+@media (max-width: 640px) {
+    .residencies-head {
+       align-items: center; 
+    }
+}

@@ -3,16 +3,20 @@ import './Style/Header.css';
 import '../../index.css'
 import { BiMenuAltRight } from 'react-icons/bi';
 import { useState } from 'react';
-
 const Header = () => {
 
   const [menuOpened, setMenuOpened] = useState(false);
 
-  const getMenuStyle = (isMenuOpened: boolean) => {
+  const getMenuStyle = (isMenuOpened: boolean): React.CSSProperties => {
+    if (document.documentElement.clientWidth <= 800) {
+        return {
+            right: isMenuOpened === false ? "-100%" : undefined
+        };
+    } {
+        return {}; 
+    }
+};
 
-    if (document.documentElement.clientWidth <= 800)
-      return {right: !isMenuOpened && "-100%"}
-  }
   return (
     <section className="header-wrapper">
       <div className="paddings innerWidth h-container">
