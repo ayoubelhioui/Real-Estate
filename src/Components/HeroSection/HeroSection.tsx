@@ -4,8 +4,9 @@ import HeroSectionPicture from '../../assets/images/hero-section-picture.jpg'
 import '../../index.css'
 import './Style/HeroSection.css'
 import CountUp from 'react-countup';
-// import {motion} from 'framer-'
+
 const HeroSection = () => {
+
   return(
       <section className='hero-wrapper'>
         <div className='innerWidth paddings flexCenter hero-container'>
@@ -25,7 +26,7 @@ const HeroSection = () => {
               <span className='secondaryText'>Forget all difficulties in finding a residence for you</span>
             </div>
 
-            <div className="flexCenter search-bar">
+            <div className="flexStart search-bar">
               <HiLocationMarker color="var(--blue)" size={25}/>
               <input type="text" />
               <button className='button'>Search</button>
