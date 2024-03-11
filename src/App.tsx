@@ -7,7 +7,7 @@ import Header from "./Components/Header/Header.tsx";
 import HeroSection from "./Components/HeroSection/HeroSection.tsx";
 import Residencies from "./Components/Residencies/Residencies.tsx";
 import Value from "./Components/Value/Value.tsx";
-import BackgroundImage from './assets/images/background-image.jpg'
+
 function App() {
   return (
     <div className="app">
