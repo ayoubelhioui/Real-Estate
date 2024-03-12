@@ -7,7 +7,7 @@ import sliderConfig from "../../utils/slider-config"
 
 const Residencies = () => {
     return (
-        <section className='residencies-wrapper'>
+        <section className='residencies-wrapper' id='residencies'>
             <div className="paddings innerWidth residencies-container">
                <div className="residencies-head flexColStart">
                 <span className='orangeText'>Best Choices</span>

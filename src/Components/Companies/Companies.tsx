@@ -9,7 +9,7 @@ import '../../index.css'
 
 const Companies = () => {
   return (
-    <section className="companies-wrapper">
+    <section className="companies-wrapper" id='companies'>
       <div className="paddings innerWidth flexCenter companies-container">
         <img src={PrologisCompanyImage} alt="" />
         <img src={DigitalRealityCompanyImage} alt="" />

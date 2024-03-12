@@ -16,7 +16,7 @@ import { useState } from 'react';
 
 const Value = () => {
     return (
-        <section className="value-wrapper">
+        <section className="value-wrapper" id='our-value'>
             <div className="paddings innerWidth flexCenter value-container">
 
                 <div className="value-left">

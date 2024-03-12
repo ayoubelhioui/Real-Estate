@@ -23,10 +23,10 @@ const Header = () => {
         <h1>Real Estate</h1>
         <div className="h-menu flexCenter"
         style={getMenuStyle(menuOpened)}>
-          <a className="nav-items" href="">Residencies</a>
-          <a className="nav-items" href="">Our Value</a>
-          <a className="nav-items" href="">Contact Us</a>
-          <a className="nav-items" href="">Get Started</a>
+          <a className="nav-items" href="#residencies">Residencies</a>
+          <a className="nav-items" href="#our-value">Our Value</a>
+          <a className="nav-items" href="#contact-us">Contact Us</a>
+          <a className="nav-items" href="#get-started">Get Started</a>
           <button className="button">
             <a href="">Contact</a>
           </button>
